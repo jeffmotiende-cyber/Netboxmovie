@@ -54,7 +54,9 @@ export default function Footer() {
             color: 'var(--text-muted)',
           }}
         >
-          <p style={{ marginTop: 4 }}>&copy; {new Date().getFullYear()} NetBox. All rights reserved.</p>
+          <p style={{ marginTop: 4 }}>&copy; {new Date().getFullYear()} NetBox. All rights reserved. Developed by <a href="https://github.com/jeffmotiende-cyber?tab=repositories" target="_blank">
+    jeffotiende
+</a></p>
         </div>
       </div>
     </footer>
